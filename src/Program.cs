@@ -2,6 +2,15 @@
 
 class Program
 {
+    static void Afficher(string[] liste, Range range)
+    {
+        foreach (var c in liste[range])
+        {
+            Console.WriteLine(c);
+        }
+
+    }
+
     static void Main(string[] args)
     {
         var bic = "ATCICIAB";
